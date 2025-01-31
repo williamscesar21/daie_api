@@ -731,4 +731,4 @@ def manage_valoracion(id):
 if __name__ == "__main__":
     with app.app_context():  # Crear el contexto de la aplicación
         db.create_all()  # Crear las tablas en la base de datos
-    app.run(host='192.168.68.111', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
